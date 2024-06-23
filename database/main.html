@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>oldteamhost resources</title>
+    <style>
+        body {
+            background-color: #141414;
+            font-family: monospace;
+            font-size: 95%;
+            color: #707070;
+        }
+        #recvSpan, #hostSpan, #hostSpan2, #hostSpan3 {
+            display: inline-block;
+        }
+        #recvSpan {
+            width: 150px;
+        }
+        #hostSpan {
+            width: 300px;
+        }
+        #hostSpan2 {
+            width: 130px;
+        }
+        #hostSpan3 {
+            width: 290px;
+        }
+        #ipd {
+            background: black;
+            width: 100%;
+            white-space: nowrap;
+            overflow-x: none;
+            display: inline-block;
+        }
+        #ipd:hover {
+            color: #909090;
+            background: #202020;
+        }
+        #tit {
+            text-align: center;
+            border: 1px solid #5d5d5d;
+        }
+        a {
+            color: gray;
+            text-decoration: underline;
+        }
+        a:focus {
+            outline-style: dashed;
+            outline-width: 1px;
+            outline-color: red;
+        }
+        hr {
+            border-color: #5d5d5d;
+        }
+        h5 {
+            color: #a1a1a1;
+        }
+        .log-entry {
+            color: #707070;
+            text-decoration: none;
+        }
+        .log-entry a {
+            color: MediumSeaGreen;
+        }
+        .log-entry .received {
+            color: SteelBlue;
+        }
+        .log-entry .type {
+            color: GoldenRod;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <center><h5>[Sun Jun 23 09:42:29 2024]</h5></center>
+    <hr>
+    <div id="tit">
+      <a href="oldteamhost.github.io">.website</a>
+      <a href="https://github.com/oldteamhost/oldteamhost.github.io/database">.source</a>      
+
+    </div>
+    <br><br>
+    <div id="log-entries">
+        <div id="ipd" class="log-entry">
+            [Sun Jun 23 09:42:38 2024] 
+            <span id="hostSpan"><a href="man/url.h.3.txt">url.h.3</a>;</span> 
+            <span id="recvSpan">Doctype: <span class="received">man</span>;</span> 
+            T: <span class="type">libncsnet's guide to the url.h file</span>
+        </div>
+    </div>
+</body>
+</html>
+
