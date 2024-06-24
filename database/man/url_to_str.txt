@@ -1,0 +1,17 @@
+URL_TO_STR(3)		   Library Functions Manual		 URL_TO_STR(3)
+
+NAME
+       url_to_str - gets the URL as a string from url_t*
+
+SYNOPSIS
+       #include <ncsnet/url.h>
+       void    url_to_str(url_t *url, char *buf, size_t buflen);
+
+DESCRIPTION
+       url_to_str() assembles the fields of the url_t* object into a string
+       representation of the URL address, which it writes to the buf buffer
+       with size buflen.
+
+       NOTE: to get the exact size for the buffer, you can use url_len().
+
+				 13 June 2024			 URL_TO_STR(3)

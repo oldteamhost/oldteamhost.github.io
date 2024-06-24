@@ -1,0 +1,15 @@
+MAC_ATON(3)		   Library Functions Manual		   MAC_ATON(3)
+
+NAME
+       mac_aton () - converts MAC address from const char * to mac_t *
+
+SYNOPSIS
+       #include <ncsnet/mac.h>
+       int mac_aton(mac_t *addr, const char *txt);
+
+DESCRIPTION
+       mac_aton() converts the MAC specification address from a string
+       representation of const char *, to an object of type mac_t.  NOTE: In
+       case of success returns 0, in case of error -1
+
+				 16 June 2024			   MAC_ATON(3)

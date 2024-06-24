@@ -1,0 +1,15 @@
+URL_LEN(3)		   Library Functions Manual		    URL_LEN(3)
+
+NAME
+       url_len - get the length (size) of URL address inside url_t*
+
+SYNOPSIS
+       #include <ncsnet/url.h>
+       size_t  url_len(url_t *url);
+
+DESCRIPTION
+       url_len() counts the length (size) of the URL address inside the url_t*
+       object; in case of success returns the length, in case of any error
+       returns 0.
+
+				 13 June 2024			    URL_LEN(3)

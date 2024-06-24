@@ -1,0 +1,30 @@
+URL_BUILD(3)		   Library Functions Manual		  URL_BUILD(3)
+
+NAME
+       url_build - creates an url_t* object with the specified fields
+
+SYNOPSIS
+       #include <ncsnet/url.h>
+       url_t  *url_build(const char *scheme, const char *paths,
+			 const char *host, const char *userinfo,
+			 const char *port, const char *querys,
+			 int type);
+
+
+DESCRIPTION
+       url_build() forms an url_t* object and fills its fields with arguments,
+       the following macros are specified as type,
+
+	      /* scheme:/// */
+	      #define URL_INTER_TYPE_SCHEMEPATHSLASH 0
+
+	      /* scheme:// */
+	      #define URL_INTER_TYPE_DEFAULT	     1
+
+	      /* scheme: */
+	      #define URL_INTER_TYPE_SCHEMEPATH	     2
+
+       in case of success returns url_t* object, in case of error returns
+       NULL.
+
+				 13 June 2024			  URL_BUILD(3)

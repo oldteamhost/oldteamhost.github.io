@@ -1,0 +1,15 @@
+URL_FROM_STR(3)		   Library Functions Manual	       URL_FROM_STR(3)
+
+NAME
+       url_from_str - get url_t from string
+
+SYNOPSIS
+       #include <ncsnet/url.h>
+       url_t  *url_from_str(const char *url);
+
+DESCRIPTION
+       url_from_str() parse const char * URL address into url_t*
+       representation; if successful, returns the url_t* (having allocated
+       memory for it first); will return NULL in case of error.
+
+				 13 June 2024		       URL_FROM_STR(3)

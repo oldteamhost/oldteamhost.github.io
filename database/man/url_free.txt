@@ -1,0 +1,13 @@
+URL_FREE(3)		   Library Functions Manual		   URL_FREE(3)
+
+NAME
+       url_free - free url_t* memory
+
+SYNOPSIS
+       #include <ncsnet/url.h>
+       void    url_free(url_t *url);
+
+DESCRIPTION
+       url_free() frees the memory of all fields and the whole url_t* object.
+
+				 13 June 2024			   URL_FREE(3)

@@ -1,0 +1,25 @@
+URL_PRINT(3)		   Library Functions Manual		  URL_PRINT(3)
+
+NAME
+       url_print - outputs information about the object url_t*
+
+SYNOPSIS
+       #include <ncsnet/url.h>
+       void    url_print(url_t *url);
+
+DESCRIPTION
+       url_print() writes all information about the url_t* object to the
+       stdout stream, among this information, fields, length, and the full
+       URL; example of its output:
+
+	      (42 len) checksum = http://google.com/kuda/tuda?skdjf=dfdf#mtu
+	       \_scheme = http
+		  \_host = google.com
+		  \_path = kuda
+		      \_path = tuda
+		  \_query = skdjf, val = dfdf
+		  \_fragment = mtu
+
+       NOTE: its use seems to be appropriate for debug only
+
+				 13 June 2024			  URL_PRINT(3)
