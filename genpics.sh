@@ -1,5 +1,5 @@
 #!/bin/sh
-OUTPUT_FILE="sinaipics.html"
+OUTPUT_FILE="sinai-pics.html"
 IMAGE_DIR="database/sinaitemp"
 
 for img in "$IMAGE_DIR"/*.{jpg,jpeg}; do
