@@ -1,12 +1,1 @@
-.header_container {
-    max-width: 800px;
-    padding: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.header_container > a{
-    color: white;
-}
+@import url(./base.css);

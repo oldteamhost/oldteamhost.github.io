@@ -1,0 +1,6 @@
+@import url(./base.css);
+
+body {
+    display: flex;
+    justify-content: center;
+}

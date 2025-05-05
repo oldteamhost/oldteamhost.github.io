@@ -1,0 +1,58 @@
+ @import url(./base.css);
+ #recvSpan,
+ #hostSpan,
+ #hostSpan2,
+ #hostSpan3 {
+     display: inline-block;
+ }
+
+ #recvSpan {
+     width: 150px;
+ }
+
+ #hostSpan {
+     width: 300px;
+ }
+
+ #hostSpan2 {
+     width: 130px;
+ }
+
+ #hostSpan3 {
+     width: 290px;
+ }
+
+ #ipd {
+     background: black;
+     width: 100%;
+     white-space: nowrap;
+     overflow-x: none;
+     display: inline-block;
+ }
+
+ #ipd:hover {
+     color: #909090;
+     background: #202020;
+ }
+
+ #tit {
+     text-align: center;
+     border: 1px solid #5d5d5d;
+ }
+
+ .log-entry {
+     color: #707070;
+     text-decoration: none;
+ }
+
+ .log-entry a {
+     color: MediumSeaGreen;
+ }
+
+ .log-entry .received {
+     color: SteelBlue;
+ }
+
+ .log-entry .type {
+     color: GoldenRod;
+ }
