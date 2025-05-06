@@ -1,6 +1,14 @@
 :root {
-    --main-bg-color: #010409;
-    --line-color: #564f70;
-    --text-color: #fff;
-    --link-color: #736ffd;
+	--main-bg-color:	#010409;
+	--line-color:		Gray;
+	--text-color:		Snow;
+	--link-color:		Azure;
+	--log-entry-color:	#707070;
+	--ipd-hover-color:	#909090;
+	--ipd-hover-bcolor:	#202020;
+	--ipd-bcolor:		black;
+	--tit-border-color:	#5d5d5d;
+	--log-entry-a-color:	MediumSeaGreen;
+	--log-entry-recv-color:	SteelBlue;
+	--log-entry-type-color:	GoldenRod;
 }

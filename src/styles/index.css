@@ -1,1 +1,68 @@
 @import url(./base.css);
+
+#recvSpan, #hostSpan, #hostSpan2,
+#hostSpan3 {
+	display:		inline-block;
+}
+
+
+#recvSpan {
+	width:			150px;
+}
+
+
+#hostSpan {
+	width:			250px;
+}
+
+
+#hostSpan2 {
+	width:			130px;
+}
+
+
+#hostSpan3 {
+	width:			290px;
+}
+
+
+#ipd {
+	background:		var(--ipd-bcolor);
+	width:			100%;
+	white-space:		nowrap;
+	overflow-x:		none;
+	display:		inline-block;
+}
+
+
+#ipd:hover {
+	color:			var(--ipd-hover-color);
+	background:		var(--ipd-hover-bcolor);
+}
+
+
+#tit {
+	text-align:		center;
+	border:			1px solid var(--tit-border-color);;
+}
+
+
+.log-entry {
+	color:			var(--log-entry-color);
+	text-decoration:	none;
+}
+
+
+.log-entry a {
+	color:			var(--log-entry-a-color);n
+}
+
+
+.log-entry .received {
+	color:			var(--log-entry-recv-color);
+}
+
+
+.log-entry .type {
+	color:			var(--log-entry-type-color);
+}
