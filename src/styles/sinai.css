@@ -1,6 +1,55 @@
 @import url(./base.css);
 
-body {
-	display:		flex;
-	justify-content:	center;
+h2 {
+	color: var(--text-color);
+	font-size: 1.25rem;
+	border-bottom: .125rem solid var(--line-color);
+	padding-bottom: .25rem;
+	margin-top: 1rem;
+}
+
+.content {
+	list-style-type: none;
+}
+
+.section {
+	border-left: .125rem solid var(--line-color);
+	padding: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 0 .25rem .25rem 0;
+}
+
+ol, ul {
+	padding-left: 1rem;
+	margin-top: 1rem;
+}
+
+li {
+	margin-bottom: 1rem;
+}
+
+.formula {
+	padding: 1rem;
+	border-radius: .25rem;
+	overflow-x: auto;
+}
+
+.definitions {
+	padding: 1rem;
+	border-radius: 0.25rem;
+	margin-top: 1rem;
+}
+
+.definitions h3 {
+	margin-top: 2rem;
+	color: var(--text-color);
+}
+
+a {
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
