@@ -1,8 +1,9 @@
 @import url(./colors.css);
 
 @font-face {
-	font-family:		"brains";
-	src:			url("src/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+	font-family:		"Mx437 VGA";
+	/*src:			url("src/fonts/Web437_IBM_VGA_8x14.woff") format("woff");*/
+	src:			url("../../src/fonts/ibm_vga8.woff2") format("woff2");
 	font-weight:		normal;
 	font-style:		normal;
 	font-display:		swap;
@@ -12,6 +13,7 @@
 * {
 	padding:		0;
 	margin:			0;
+	font-family:		"Mx437 VGA", monospace;
 	box-sizing:		border-box;
 }
 
@@ -22,6 +24,9 @@
 	margin-left:		auto;
 	margin-right:		auto;
 	display:		flex;
+	font-size:		18px;
+	text-shadow:		1px 1px 0 #1C1C1C;
+	text-decoration:	underline;
 	justify-content:	space-around;
 }
 
@@ -34,7 +39,6 @@
 
 body {
 	background-color:	var(--main-bg-color);
-	font-family:		'brains', sans-serif;
 	font-size:		16px;
 	color:			var(--text-color);
 }
@@ -75,7 +79,7 @@ header {
 .copyright {
 	padding-top:		1rem;
 	padding-bottom:		1rem;
-	font-size:		12px;
+	font-size:		14px;
 	color:			var(--line-color);
 	max-width:		800px;
 	margin-left:		auto;
