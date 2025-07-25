@@ -3,7 +3,7 @@
 @font-face {
 	font-family:		"Mx437 VGA";
 	/*src:			url("../../src/fonts/ibm_vga8.woff2") format("woff2");*/
-	src:			url("src/fonts/ibm_vga8.woff2") format("woff2");
+	src:			url("../fonts/ibm_vga8.woff2") format("woff2");
 	font-weight:		normal;
 	font-style:		normal;
 	font-display:		swap;
